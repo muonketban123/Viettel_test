@@ -1,0 +1,29 @@
+Một chuỗi ký tự S (1 ≤ |S| ≤ 104), thực hiện biến đổi chuỗi ký tự này thành chuỗi kí tự đối 
+xứng tuân theo luật như sau:
+1. Mỗi lần chỉ được biến đổi 1 ký tự, ký tự được biến đổi chuyển thành ký tự trước liền 
+nó trong bảng chữ cái. 
+Ví dụ : 
+- TH thỏa mãn: d => c, c => b
+- TH không thỏa mãn: d => b, b => c
+2. Ký tự “a” nhỏ nhất trong bảng chữ cái được giữ nguyên.
+Mỗi ký tự thay đổi một lần được tính là một bước biến đổi. In ra số bước nhỏ nhất x để
+biến chuỗi ký tự S thành chuỗi đối xứng S’.
+- Ví dụ:
+S = “and” 
+Quá trình biến đổi: and => anc => anb => ana
+Số bước biến đổi x = 3
+Nhập vào N chuỗi kí tự S (1 ≤ N ≤ 10), các chuỗi S thỏa mãn là chuỗi gồm các ký tự viết 
+thường trong bảng chữ cái Tiếng Anh, không chứa khoảng trắng.
+Các giá trị nhập vào N, chuỗi ký tự S và kết quả trả về được in ra trên mỗi dòng riêng biệt.
+Ví dụ:
+- Input: 
+4
+ab
+and
+abcd
+mem
+- Output:
+1
+3
+4
+0

@@ -1,0 +1,11 @@
+1. Mô tả:
+Dãy S có n phần tử:
+Tích lũy của S là tích lũy của các phần tử
+Tích lũy của 1 phần tử là số lượng phần tử trong dãy S nhỏ hơn hoặc bằng chính nó
+
+Test case: S: "1, 1, 2, 3";
+- S[0] = 1, tích lũy = 2 (vì có 2 số 1 <= S[0] trong dãy)
+- S[1] = 1, tích lũy = 2 (vì có 2 số 1 <= S[1] trong dãy)
+- S[2] = 2, tích lũy = 3 (vì có 2 số 1, 1 số 2 <= S[2] trong dãy)
+- S[3] = 3, tích lũy = 4 (vì có 2 số 1, 1 số 2, 1 số 3 <= S[3] trong dãy)
+=> tổng tích lũy của S = 2 + 2 + 3 + 4 = 11

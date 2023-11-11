@@ -1,0 +1,19 @@
+Mô tả
+o Có một danh sách điểm số của n học sinh.
+o Với các thông tin được biết là điểm của từng học sinh và số lượng học sinh đứng 
+trước có điểm cao hơn.
+o In ra điểm số đúng vị trí sắp xếp của các học sinh trong danh sách.
+Đầu vào:
+o Dòng thứ nhất là số lượng học sinh: n
+o Dòng thứ 2 là điểm của các học sinh được lấy ra trong danh sách không theo thứ tự: 
+S1
+o Dòng thứ 3 là số lượng học sinh đứng trước có điểm cao hơn học sinh đó: S2
+Đầu ra:
+o Điểm của các học sinh đúng theo vị trí sắp xếp trong danh sách
+Ví dụ:
+o Đầu vào:
+5
+8 6 7 9 10
+0 2 1 1 0
+o Đầu ra:
+8 7 6 10 9

@@ -1,0 +1,38 @@
+Một số nguyên S biểu diễn dưới dạng chuỗi số, thực hiện phân tách chuỗi số đó thành các 
+số nguyên dương (có một hoặc nhiều chữ số) s1, s2, s3… s[n] đảm bảo các yêu cầu sau:
+
+1. Các số nguyên dương theo thứ tự phân tách tạo thành dãy số tự nhiên liên tiếp
+s[i+1] – s[i] = 1 (0 ≤ i ≤ n)
+
+2. Các số nguyên dương không được tồn tại phần tử 0 ở đầu.
+VD: Chuỗi S = “450607” được phân tách thành dãy số {4, 5, 06, 07}
+Phần tử ‘06’ và ‘07’ không thỏa mãn yêu cầu.
+
+3. Dãy số sau khi phân tách không được sắp xếp, thay đổi vị trí.
+VD: Chuỗi S = “645” được phân tách thành dãy số {6, 4, 5}, dãy này không thỏa 
+mãn yêu cầu 1.
+
+Các trường hợp tách chuỗi số thỏa mãn các yêu cầu đề bài:
+S = “2345” => {2, 3, 4, 5}
+S = “891011” => {8, 9, 10, 11}
+S = “100101102” => {100, 101, 102}
+Thực hiện phân tách N chuỗi số đầu vào (1≤ N ≤ 10). 
+Với mỗi chuỗi số nhập vào S (1≤ |S| ≤ 32), nếu nó đảm bảo các yêu cầu phân tách bên trên 
+thì kết quả in ra “YES a”, trong đó a là số hạng đầu tiên trong dãy liên tiếp (trường hợp có 
+nhiều khả năng của a thì chọn in ra giá trị nhỏ nhất). Nếu không thỏa mãn in kết quả “NO”.
+Các giá trị nhập vào N, chuỗi số S và kết quả trả về được in ra trên mỗi dòng riêng biệt.
+Ví dụ:
+- Input:
+5
+3456
+0123
+888990
+2224
+1
+- Output:
+YES 3
+NO
+YES 88
+NO
+NO
+ 
