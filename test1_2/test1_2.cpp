@@ -10,7 +10,7 @@ int countStepsToPalindrome(const string& s) {
 
     for (int i = 0; i < n / 2; ++i) {
         int distance = abs(s[i] - s[n - 1 - i]);
-        steps += min(distance, 26 - distance);
+        steps += distance;
     }
 
     return steps;
