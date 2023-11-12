@@ -18,14 +18,17 @@ int countStepsToPalindrome(const string& s) {
 
 int main() {
     int n;
+    cout << "Enter the number of input strings: " << endl;
     cin >> n;
 
     vector<string> strings(n);  
-
+    
+    cout << "Enter input strings " << endl;
     for (int i = 0; i < n; ++i) {
         cin >> strings[i];
     }
-
+    
+    cout << "Out put: " << endl;
     for (int i = 0; i < n; ++i) {
         int steps = countStepsToPalindrome(strings[i]);
         cout << steps << endl;

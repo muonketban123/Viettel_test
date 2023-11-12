@@ -50,11 +50,14 @@ void processSequence(const string& s) {
 
 int main() {
     int n;
+    cout << "Enter the number of input strings: " << endl;
     cin >> n;
     vector<string> sequences(n);
+    cout << "Enter input strings: " << endl;
     for (int i = 0; i < n; ++i) {
         cin >> sequences[i];
     }
+    cout << "Output: " << endl;
     for (int i = 0; i < n; ++i) {
         processSequence(sequences[i]);
     }

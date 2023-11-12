@@ -4,17 +4,20 @@ using namespace std;
 
 int main() {
     int n;
+    cout << "Enter the number of students: " << endl;
     cin >> n;
-
+    
     vector<int> scores(n);
     vector<int> higher_count(n);
 
     // Enter each student's score
+    cout << "Enter each student's score: " << endl;
     for (int i = 0; i < n; ++i) {
         cin >> scores[i];
     }
 
     // Enter the number of students in front with higher scores
+    cout << "Enter the number of students in front with higher scores: " << endl;
     for (int i = 0; i < n; ++i) {
         cin >> higher_count[i];
     }
@@ -36,6 +39,7 @@ int main() {
     }
 
     // Print out the students' scores according to the sorted position
+    cout << "Output: " << endl;
     for (int i = 0; i < n; ++i) {
         cout << result[i] << " ";
     }
